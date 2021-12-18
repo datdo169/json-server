@@ -1,0 +1,64 @@
+@baseUrl=http://localhost:4000/api
+@resourceName=products
+
+# @name getAllproducts
+GET {{baseUrl}}/{{resourceName}}
+
+###
+# @name filterProduct
+GET {{baseUrl}}/{{resourceName}}?price_gte=900&color=teal
+
+###
+
+# @name filterProducts
+GET {{baseUrl}}/{{resourceName}}?name_like=Con
+
+
+###
+
+# @name pagination
+GET {{baseUrl}}/{{resourceName}}?_page=2&_limit=5
+
+###
+
+# @name sort
+GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
+
+###
+
+# @name addNewproducts
+POST {{baseUrl}}/{{resourceName}}
+Content-Type: application/json
+
+{
+    "name": "Licensed Frozen Chair",
+    "color": "azure",
+    "price": 253,
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "thumailUrl": "http://placeimg.com/400/400",
+    "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+}
+
+###
+
+
+# @name updateNewproducts
+PATCH {{baseUrl}}/{{resourceName}}/4r2GN6f
+Content-Type: application/json
+
+{
+    "name": "Licensed AAA Chair",
+    "color": "blue",
+    "price": 600
+}
+
+
+###
+
+
+# @name updateNewproducts
+DELETE  {{baseUrl}}/{{resourceName}}/3
+Content-Type: application/json
+
+
+

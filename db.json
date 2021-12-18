@@ -1,0 +1,275 @@
+{
+  "categories": [
+    {
+      "id": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8",
+      "name": "Home",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255
+    },
+    {
+      "id": "25ff772d-769f-40b7-af7a-b5c2e4e197eb",
+      "name": "Health",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255
+    },
+    {
+      "id": "e26b0e7c-1053-4f53-9824-98fd99349314",
+      "name": "Grocery",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255
+    },
+    {
+      "id": "15d50b06-cfb1-47a1-a708-1377d13afdd7",
+      "name": "Toys",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255
+    }
+  ],
+  "products": [
+    {
+      "id": "23b0e1f6-5406-44a5-848b-0868d8e0ed5b",
+      "name": "Licensed Frozen Chair",
+      "color": "azure",
+      "price": 253,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    },
+    {
+      "id": "678cd78b-cd48-48cb-a54d-ed6f14c0e291",
+      "name": "Incredible Granite Pants",
+      "color": "gold",
+      "price": 911,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1639845110255,
+      "updatedAt": 1639845110255,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    },
+    {
+      "id": "86f431cb-2d84-478b-9110-402835d56bff",
+      "name": "Small Metal Ball",
+      "color": "pink",
+      "price": 21,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    },
+    {
+      "id": "60c2915c-3492-471b-92b7-b813cf2c2a50",
+      "name": "Handmade Soft Gloves",
+      "color": "turquoise",
+      "price": 585,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    },
+    {
+      "id": "e2933d75-69e5-41cb-bf5d-f7e93917a205",
+      "name": "Refined Fresh Chicken",
+      "color": "salmon",
+      "price": 87,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    },
+    {
+      "id": "b8223a1e-5e31-4eac-9777-73cf3901095e",
+      "name": "Refined Concrete Soap",
+      "color": "white",
+      "price": 89,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "25ff772d-769f-40b7-af7a-b5c2e4e197eb"
+    },
+    {
+      "id": "e36db51e-daaa-4ab9-a4f5-d4c6be1a0ebf",
+      "name": "Licensed Fresh Hat",
+      "color": "orchid",
+      "price": 744,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "25ff772d-769f-40b7-af7a-b5c2e4e197eb"
+    },
+    {
+      "id": "024b313f-8a1e-47a7-aae8-4b70bd823398",
+      "name": "Practical Steel Computer",
+      "color": "orange",
+      "price": 438,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "25ff772d-769f-40b7-af7a-b5c2e4e197eb"
+    },
+    {
+      "id": "5db8c85b-7b1a-4a14-b484-79859569f3f1",
+      "name": "Ergonomic Concrete Soap",
+      "color": "maroon",
+      "price": 660,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "25ff772d-769f-40b7-af7a-b5c2e4e197eb"
+    },
+    {
+      "id": "c29c5698-6d72-4ca7-86c6-677d990a2f07",
+      "name": "Ergonomic Concrete Table",
+      "color": "plum",
+      "price": 742,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "25ff772d-769f-40b7-af7a-b5c2e4e197eb"
+    },
+    {
+      "id": "3742b6c6-a4b9-4298-8a75-f64fdfa907a2",
+      "name": "Gorgeous Cotton Shirt",
+      "color": "blue",
+      "price": 309,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "e26b0e7c-1053-4f53-9824-98fd99349314"
+    },
+    {
+      "id": "25fb959d-c27b-4eb3-92bb-8e5c308d6efa",
+      "name": "Ergonomic Wooden Shirt",
+      "color": "teal",
+      "price": 932,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "e26b0e7c-1053-4f53-9824-98fd99349314"
+    },
+    {
+      "id": "a1873626-9b96-4f7f-96f1-f65fb0f504ab",
+      "name": "Refined Frozen Keyboard",
+      "color": "olive",
+      "price": 303,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "e26b0e7c-1053-4f53-9824-98fd99349314"
+    },
+    {
+      "id": "d1891dd8-6093-4003-82b7-2c3836f0496f",
+      "name": "Rustic Concrete Soap",
+      "color": "gold",
+      "price": 870,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "e26b0e7c-1053-4f53-9824-98fd99349314"
+    },
+    {
+      "id": "c902cb5f-716a-4942-984b-485096640929",
+      "name": "Tasty Fresh Chips",
+      "color": "mint green",
+      "price": 148,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "e26b0e7c-1053-4f53-9824-98fd99349314"
+    },
+    {
+      "id": "a9fc1d1f-4772-4b65-831a-da882617e647",
+      "name": "Gorgeous Granite Car",
+      "color": "red",
+      "price": 923,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "15d50b06-cfb1-47a1-a708-1377d13afdd7"
+    },
+    {
+      "id": "af633e51-1b6e-4ccd-90fe-51c71138cd3d",
+      "name": "Generic Metal Bike",
+      "color": "silver",
+      "price": 391,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "15d50b06-cfb1-47a1-a708-1377d13afdd7"
+    },
+    {
+      "id": "4c0ae0df-d530-4b89-959c-ed5e6d24f0ed",
+      "name": "Handcrafted Concrete Car",
+      "color": "purple",
+      "price": 483,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "15d50b06-cfb1-47a1-a708-1377d13afdd7"
+    },
+    {
+      "id": "7bd50830-8b5e-4d2f-a87d-fd9a4526fb7b",
+      "name": "Intelligent Plastic Chips",
+      "color": "lavender",
+      "price": 604,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "15d50b06-cfb1-47a1-a708-1377d13afdd7"
+    },
+    {
+      "id": "f2509927-d4a5-436a-af9c-e426175c8a54",
+      "name": "Ergonomic Fresh Hat",
+      "color": "ivory",
+      "price": 341,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "createdAt": 1639845110256,
+      "updatedAt": 1639845110256,
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "15d50b06-cfb1-47a1-a708-1377d13afdd7"
+    },
+    {
+      "name": "Licensed Frozen Chair",
+      "color": "azure",
+      "price": 253,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8",
+      "createdAt": 1639845884839,
+      "updatedAt": 1639845884839,
+      "id": "wTrudN1"
+    },
+    {
+      "name": "Licensed AAA Chair",
+      "color": "blue",
+      "price": 600,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "thumailUrl": "http://placeimg.com/400/400",
+      "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8",
+      "createdAt": 1639845928229,
+      "updatedAt": 1639846045833,
+      "id": "4r2GN6f"
+    }
+  ],
+  "profile": {
+    "name": "Po"
+  }
+}
