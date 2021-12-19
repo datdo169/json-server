@@ -70,7 +70,7 @@ const randomUserList = (n) => {
             role: faker.random.arrayElement(["A1", "A2", "A3", "B1", "B2", "citizen"]),
         }
         let addtional = {
-            username: "", password: ""
+            username: null, password: null
         }
 
         if (user.role !== "citizen") {
