@@ -83,7 +83,7 @@ const citizenList = randomCitizenList(100);
 (() => {
 
     const db = {
-        users: citizenList
+        citizens: citizenList
     }
 
     fs.writeFile('./db.json', JSON.stringify(db), () => {
