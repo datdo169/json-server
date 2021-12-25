@@ -53,9 +53,10 @@ const randomProductList = (categoryList, numberOfProducts) => {
 const randomUserList = (n) => {
     if (n <= 0) return [];
     const userList = [];
-
+    let i = 1
     Array.from(new Array(n)).forEach(() => {
         const user = {
+            id: i++,
             idCard: faker.datatype.uuid(),
             name: faker.name.firstName(),
             birthDate: "00/00/00",
@@ -84,6 +85,7 @@ const randomUserList = (n) => {
         userList.push(newUser);
     })
     const adminUser = {
+        id: i++,
         idCard: faker.datatype.uuid(),
         name: faker.name.firstName(),
         birthDate: "00/00/00",
