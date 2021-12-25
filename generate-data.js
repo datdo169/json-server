@@ -56,7 +56,7 @@ const randomUserList = (n) => {
 
     Array.from(new Array(n)).forEach(() => {
         const user = {
-            id: faker.datatype.uuid(),
+            idCard: faker.datatype.uuid(),
             name: faker.name.firstName(),
             birthDate: "00/00/00",
             gender: faker.name.gender(),
