@@ -50,12 +50,12 @@ const randomProductList = (categoryList, numberOfProducts) => {
     return productList;
 }
 
-const randomUserList = (n) => {
+const randomCitizenList = (n) => {
     if (n <= 0) return [];
-    const userList = [];
+    const citizenList = [];
     let i = 1
     Array.from(new Array(n)).forEach(() => {
-        const user = {
+        const newCitizen = {
             id: i++,
             idCard: faker.datatype.uuid(),
             name: faker.name.firstName(),
@@ -68,54 +68,22 @@ const randomUserList = (n) => {
             religion: "không",
             educationalLevel: faker.random.arrayElement(["High School", "Ungraduated", "Graduated"]),
             career: faker.name.jobType(),
-            role: faker.random.arrayElement(["A1", "A2", "A3", "B1", "B2", "citizen"]),
         }
-        let addtional = {
-            username: null, password: null
-        }
-
-        if (user.role !== "citizen") {
-            addtional = { username: `${user.role}-${user.id}`, password: "password" }
-        }
-
-        const newUser = {
-            ...user,
-            ...addtional
-        }
-        userList.push(newUser);
+        citizenList.push(newCitizen);
     })
-    const adminUser = {
-        id: i++,
-        idCard: faker.datatype.uuid(),
-        name: faker.name.firstName(),
-        birthDate: "00/00/00",
-        gender: faker.name.gender(),
-        country: faker.address.country(),
-        hometown: faker.address.city(),
-        permanentAddress: faker.address.streetAddress(),
-        temporaryAddress: faker.address.streetAddress(),
-        religion: "không",
-        educationalLevel: faker.random.arrayElement(["High School", "Ungraduated", "Graduated"]),
-        career: faker.name.jobType(),
-        role: "admin",
-        username: "admin",
-        password: "admin"
-    }
-    userList.push(adminUser);
 
-    return userList;
+
+    return citizenList;
 }
 
 const categoryList = randomeCategoryList(4);
 const productList = randomProductList(categoryList, 5);
-const userList = randomUserList(100);
+const citizenList = randomCitizenList(100);
 
 (() => {
 
     const db = {
-        categories: categoryList,
-        products: productList,
-        users: userList
+        users: citizenList
     }
 
     fs.writeFile('./db.json', JSON.stringify(db), () => {
