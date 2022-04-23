@@ -1,5 +1,6 @@
+# @baseUrl=https://json-server-demoo.herokuapp/api
 @baseUrl=http://localhost:4000/api
-@resourceName=products
+@resourceName=donations
 
 # @name getAllproducts
 GET {{baseUrl}}/{{resourceName}}
@@ -27,16 +28,14 @@ GET {{baseUrl}}/{{resourceName}}?_sort=price&_order=asc
 ###
 
 # @name addNewproducts
+# POST {{baseUrl}}
 POST {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 {
-    "name": "Licensed Frozen Chair",
-    "color": "azure",
-    "price": 253,
-    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-    "thumailUrl": "http://placeimg.com/400/400",
-    "categoryId": "0a5f1f8b-44ed-414c-9f9f-a7de395742d8"
+    "amount": 1700,
+    "paymentType": "Direct",
+    "upvotes": 0
 }
 
 ###
@@ -56,8 +55,8 @@ Content-Type: application/json
 ###
 
 
-# @name updateNewproducts
-DELETE  {{baseUrl}}/{{resourceName}}/3
+# @name Delete
+DELETE  {{baseUrl}}/{{resourceName}}
 Content-Type: application/json
 
 

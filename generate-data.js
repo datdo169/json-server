@@ -76,14 +76,14 @@ const randomCitizenList = (n) => {
     return citizenList;
 }
 
-const categoryList = randomeCategoryList(4);
-const productList = randomProductList(categoryList, 5);
-const citizenList = randomCitizenList(100);
+// const categoryList = randomeCategoryList(4);
+// const productList = randomProductList(categoryList, 5);
+// const citizenList = randomCitizenList(100);
 
 (() => {
 
     const db = {
-        citizens: citizenList
+        donations: []
     }
 
     fs.writeFile('./db.json', JSON.stringify(db), () => {
